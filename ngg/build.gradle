@@ -1,0 +1,59 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.ntdlg.ngg"
+        minSdkVersion 15
+        targetSdkVersion 24
+
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled = true
+        manifestPlaceholders = [
+                GETUI_APP_ID    : "Mrii9QTiL78BU5T4XBZK5",
+                GETUI_APP_KEY   : "mEE6VxSpEg5A33NTxpNWT3",
+                GETUI_APP_SECRET: "DRwbCIfDvD8KBrspLFzdJ9",
+                PACKAGE_NAME    : applicationId
+        ]
+
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "arm64-v8a", "mips", "mips64", "x86", "x86_64"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    signingConfigs {
+        debug {
+            storeFile file("F:\\小工具\\小工具\\ntdlg.keystore")
+            storePassword "ntdlg123"
+            keyAlias "20"
+            keyPassword "ntdlg123"
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile project(':frameWidget')
+    compile files('libs/ngg.apis.1.0.jar')
+    compile files('libs/ngg.wire.1.0.jar')
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    compile 'com.getui:sdk:2.9.3.0'
+    compile files('libs/AMap_3DMap_V3.3.1_20160419.jar')
+    compile files('libs/AMap_Location_V2.4.1_20160414.jar')
+    compile files('libs/greendao-1.3.7.jar')
+    compile files('libs/alipaySdk-20151103.jar')
+    compile files('libs/UPPayAssistEx.jar')
+    compile files('libs/UPPayPluginExPro.jar')
+    compile files('libs/pinyin4j-2.5.0.jar')
+    compile files('libs/AMap_Services_V2.4.0.jar')
+    compile 'com.android.support:multidex:1.0.1'
+}

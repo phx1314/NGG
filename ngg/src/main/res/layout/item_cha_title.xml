@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/text_style_13_gray"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="#00000000"
+    android:button="@null"
+    android:gravity="center"
+    android:text="菜系信息"
+    android:paddingBottom="@dimen/j5dp"
+    android:textColor="@drawable/select_text_bh" />

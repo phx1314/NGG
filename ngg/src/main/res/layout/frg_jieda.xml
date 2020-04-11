@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    android:padding="@dimen/j10dp">
+
+    <EditText
+        android:id="@+id/mEditText_content"
+        style="@style/text_style_13_black"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j129dp"
+        android:background="@drawable/bg_l_w"
+        android:maxLength="300"
+        android:gravity="top"
+        android:hint="请详细的解答是什么病虫草害，如何防治与使用什么药剂。"
+        android:padding="@dimen/j10dp" />
+
+    <com.framewidget.view.MGridPhotoChoose
+        android:id="@+id/mMGridPhotoChoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/j13dp" />
+</LinearLayout>
+

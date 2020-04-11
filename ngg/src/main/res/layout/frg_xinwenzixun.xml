@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/mRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j35dp"
+        android:background="#ffffff"
+        android:visibility="gone"
+        android:checkedButton="@+id/mTextView_yw"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/mTextView_yw"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:button="@null"
+            android:gravity="center"
+            android:text="今日要闻"
+            android:textColor="@drawable/select_text"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="1px"
+            android:layout_height="@dimen/j25dp"
+            android:background="@color/tyD1" />
+
+
+        <RadioButton
+            android:id="@+id/mTextView_zx"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:button="@null"
+            android:gravity="center"
+            android:text="农业资讯"
+            android:textColor="@drawable/select_text"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="1px"
+            android:layout_height="@dimen/j25dp"
+            android:background="@color/tyD1" />
+
+
+        <RadioButton
+            android:id="@+id/mTextView_nj"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:button="@null"
+            android:gravity="center"
+            android:text="图文农技"
+            android:textColor="@drawable/select_text"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1px"-->
+        <!--android:background="@color/tyD1" />-->
+
+    <com.mdx.framework.widget.MPageListView
+        android:id="@+id/mMPageListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/line"
+        android:fadingEdge="none" />
+</LinearLayout>
+

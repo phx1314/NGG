@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.mdx.framework.widget.MImageView
+        android:id="@+id/mMImageView"
+        android:layout_width="@dimen/j300dp"
+        android:layout_height="@dimen/j189dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_avatar" />
+</LinearLayout>
+

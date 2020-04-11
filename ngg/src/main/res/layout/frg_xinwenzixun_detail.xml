@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="@dimen/j15dp">
+
+    <TextView
+        android:id="@+id/mTextView_title"
+        style="@style/text_style_17_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/test" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/j12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mTextView_src"
+            style="@style/text_style_15_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="中国农业网" />
+
+        <TextView
+            android:id="@+id/mTextView_time"
+            style="@style/text_style_15_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016-06-08" />
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/mwb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/j8dp" />
+</LinearLayout>
+

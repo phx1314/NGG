@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NGG.iml" filepath="$PROJECT_DIR$/NGG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/andframework-release/andframework-release.iml" filepath="$PROJECT_DIR$/andframework-release/andframework-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frameWidget/frameWidget.iml" filepath="$PROJECT_DIR$/frameWidget/frameWidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ngg/ngg.iml" filepath="$PROJECT_DIR$/ngg/ngg.iml" />
+    </modules>
+  </component>
+</project>

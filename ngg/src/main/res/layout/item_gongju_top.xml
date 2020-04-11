@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/j15dp">
+
+        <TextView
+            android:id="@+id/mTextView_1"
+            style="@style/text_style_13_black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/j6dp"
+            android:drawableTop="@drawable/bt_fjnz_n"
+            android:gravity="center"
+            android:text="附近农资" />
+
+        <TextView
+            android:id="@+id/mTextView_2"
+            style="@style/text_style_13_black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/j6dp"
+            android:drawableTop="@drawable/bt_nyzx_n"
+            android:gravity="center"
+            android:text="农业资讯" />
+
+        <TextView
+            android:id="@+id/mTextView_3"
+            style="@style/text_style_13_black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/j6dp"
+            android:drawableTop="@drawable/bt_nyqs_n"
+            android:gravity="center"
+            android:text="农药全书" />
+
+        <TextView
+            android:id="@+id/mTextView_4"
+            style="@style/text_style_13_black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/j6dp"
+            android:drawableTop="@drawable/bt_nyhx_n"
+            android:gravity="center"
+            android:text="农药行情" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/j15dp"
+        android:paddingTop="@dimen/j10dp">
+
+        <TextView
+            android:id="@+id/mTextView_5"
+            style="@style/text_style_13_black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/j6dp"
+            android:drawableTop="@drawable/bt_twnj_n"
+            android:gravity="center"
+            android:text="图文农技" />
+
+        <TextView
+            android:id="@+id/mTextView_6"
+            style="@style/text_style_13_black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/j6dp"
+            android:drawableTop="@drawable/bt_nyq_n"
+            android:gravity="center"
+            android:text="农友圈" />
+
+        <TextView
+            android:id="@+id/mTextView_8"
+            style="@style/text_style_13_black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/j6dp"
+            android:drawableTop="@drawable/bt_zctp_n"
+            android:gravity="center"
+            android:text="杂草图谱" />
+
+        <TextView
+            android:id="@+id/mTextView_7"
+            style="@style/text_style_13_black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/j6dp"
+            android:drawableTop="@drawable/bt_nyzl_n"
+            android:gravity="center"
+            android:text="农药专利"
+            android:visibility="invisible" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j8dp"
+        android:background="#f2f2f2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j110dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/clk_mLinearLayout_wzh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j10dp"
+                android:src="@drawable/ic_zjt" />
+
+            <TextView
+                style="@style/text_style_15_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j5dp"
+                android:text="农乖乖"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/text_style_13_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j5dp"
+                android:text="专家团上门问诊" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/tyD1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/clk_mLinearLayout_kstw"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/text_style_15_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/j5dp"
+                        android:text="快速提问"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/text_style_13_gray"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/j5dp"
+                        android:text="轻松提问 专家诊断" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j20dp"
+                    android:src="@drawable/ic_kstwgj" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/tyD1" />
+
+            <LinearLayout
+                android:id="@+id/clk_mLinearLayout_chaxun"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/text_style_15_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/j5dp"
+                        android:text="查询真伪"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/text_style_13_gray"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/j5dp"
+                        android:text="详细查询帮助辨别" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j20dp"
+                    android:src="@drawable/ic_cxzw" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f2f2"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/j6dp"
+        android:paddingRight="@dimen/j6dp"
+        android:paddingTop="@dimen/j6dp">
+
+        <com.framewidget.view.DfCirleCurr
+            android:id="@+id/mDfCirleCurr"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/j150dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/j10dp"
+            android:src="@drawable/ic_nzsc" />
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f2f2f2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/j15dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="1px"
+                        android:layout_weight="0.5"
+                        android:background="@color/tyD1" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_shenqing_d" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="1px"
+                        android:layout_weight="1"
+                        android:background="@color/tyD1" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_shenqing_d" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="1px"
+                        android:layout_weight="1"
+                        android:background="@color/tyD1" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_shenqing_d" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="1px"
+                        android:layout_weight="1"
+                        android:background="@color/tyD1" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_shenqing_h" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="1px"
+                        android:layout_weight="0.5"
+                        android:background="@color/tyD1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/j27dp"
+                    android:layout_marginTop="@dimen/j10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/text_style_15_black"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/j7dp"
+                        android:text="基本信息" />
+
+                    <TextView
+                        style="@style/text_style_15_black"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/j10dp"
+                        android:text="身份证" />
+
+                    <TextView
+                        style="@style/text_style_15_black"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/j10dp"
+                        android:text="门头照" />
+
+                    <TextView
+                        style="@style/text_style_15_black"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/j7dp"
+                        android:text="营业执照" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.mdx.framework.widget.MImageView
+                android:id="@+id/mMImageView"
+                android:layout_width="@dimen/j160dp"
+                android:layout_height="@dimen/j100dp"
+                android:layout_marginTop="@dimen/j20dp"
+                android:src="@drawable/bt_tjzp_l_n" />
+
+            <TextView
+                style="@style/text_style_13_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/j29dp"
+                android:layout_marginTop="@dimen/j14dp"
+                android:text="营业执照" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/tyD1" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#f2f2f2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_tab"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/clk_mTextView_up"
+            style="@style/text_style_15_white"
+            android:layout_width="@dimen/j140dp"
+            android:layout_height="@dimen/j30dp"
+            android:layout_marginRight="@dimen/j10dp"
+            android:background="@drawable/bt_blue_l_n"
+            android:gravity="center"
+            android:text="上一步"
+            android:textColor="@color/A" />
+
+        <TextView
+            android:id="@+id/clk_mTextView_next"
+            style="@style/text_style_15_white"
+            android:layout_width="@dimen/j140dp"
+            android:layout_height="@dimen/j30dp"
+            android:background="@drawable/bt_blue_n"
+            android:gravity="center"
+            android:text="提交审核" />
+    </LinearLayout>
+</LinearLayout>
+

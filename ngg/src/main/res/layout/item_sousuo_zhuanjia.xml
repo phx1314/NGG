@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j85dp"
+        android:orientation="horizontal"
+        android:padding="@dimen/j10dp">
+
+        <com.mdx.framework.widget.MImageView
+            android:id="@+id/mMImageView"
+            android:layout_width="@dimen/j60dp"
+            android:layout_height="@dimen/j60dp"
+            android:src="@drawable/morentouxiang_n" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/j6dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/mTextView_name"
+                        style="@style/text_style_15_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:text="赵雪晴" />
+
+                    <TextView
+                        android:id="@+id/mTextView_type"
+                        style="@style/text_style_13_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/j8dp"
+                        android:singleLine="true"
+                        android:text="之宝专家" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/mTextView_tiwen"
+                    style="@style/text_style_15_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bt_o_l_n"
+                    android:gravity="center"
+                    android:text="提问"
+                    android:textColor="@color/Eb" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mTextView_remark"
+                style="@style/text_style_13_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j8dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/test" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

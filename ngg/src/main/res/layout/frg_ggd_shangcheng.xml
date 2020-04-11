@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/j15dp"
+        android:paddingRight="@dimen/j10dp">
+
+        <TextView
+            android:id="@+id/mTextView_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_ggd"
+            android:drawablePadding="@dimen/j10dp"
+            android:gravity="center_vertical"
+            android:text="300"
+            android:textColor="@color/Eb"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/j5dp"
+            android:gravity="center_vertical"
+            android:text="乖乖豆"
+            android:textColor="@color/gray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/mTextView_jil"
+            android:layout_width="@dimen/j75dp"
+            android:layout_height="@dimen/j20dp"
+            android:background="@drawable/bt_grey_l_n"
+            android:gravity="center"
+            android:text="兑换记录"
+            android:textColor="@color/gray"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <com.mdx.framework.widget.MPageListView
+        android:id="@+id/mMPageListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:fadingEdge="none" />
+</LinearLayout>
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/j116dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_more"
+        android:layout_marginRight="@dimen/j5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/clk_mTextView_fjdwt"
+            style="@style/text_style_15_white"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/j35dp"
+            android:drawableLeft="@drawable/ic_fjdwt"
+            android:drawablePadding="@dimen/j10dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/j10dp"
+            android:text="附近的问题" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/tyD1" />
+
+        <TextView
+            android:id="@+id/clk_mTextView_tjwt"
+            style="@style/text_style_15_white"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/j35dp"
+            android:drawableLeft="@drawable/ic_tjwt"
+            android:drawablePadding="@dimen/j10dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/j10dp"
+            android:text="推荐问题" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/tyD1" />
+
+        <TextView
+            android:id="@+id/clk_mTextView_djjwt"
+            style="@style/text_style_15_white"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/j35dp"
+            android:drawableLeft="@drawable/ic_djjwt"
+            android:drawablePadding="@dimen/j10dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/j10dp"
+            android:text="待解决问题" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/tyD1" />
+    </LinearLayout>
+</LinearLayout>
+

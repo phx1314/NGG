@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/j35dp"
+        android:src="@drawable/ic_ngg" />
+
+    <TextView
+        android:id="@+id/mTextView_banbenhao"
+        style="@style/text_style_15_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/j10dp"
+        android:text="农乖乖v1.0.0" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/mTextView"
+        style="@style/text_style_15_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/j10dp"
+        android:text="用户协议" />
+
+    <TextView
+        style="@style/text_style_15_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/j22dp"
+        android:layout_marginTop="@dimen/j10dp"
+        android:text="农乖乖网络科技有限公司" />
+</LinearLayout>
+

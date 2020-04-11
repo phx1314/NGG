@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j28dp"
+        android:layout_marginBottom="@dimen/j10dp"
+        android:layout_marginLeft="@dimen/j15dp"
+        android:layout_marginRight="@dimen/j15dp"
+        android:layout_marginTop="@dimen/j10dp"
+        android:background="@drawable/bg_sousuo"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mEditText_sousuo"
+            style="@style/text_style_13_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:drawableLeft="@drawable/ic_sousuo"
+            android:drawablePadding="@dimen/j5dp"
+            android:gravity="center_vertical"
+            android:hint="请输入有效成分"
+            android:paddingLeft="@dimen/j5dp"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="@dimen/j85dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/mLinearLayout_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" />
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/j10dp"
+                android:paddingBottom="@dimen/j10dp"
+                android:paddingTop="@dimen/j10dp">
+
+                <com.framewidget.view.FixGridLayout
+                    android:id="@+id/mFixGridLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
+

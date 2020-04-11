@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    android:padding="@dimen/j10dp">
+
+    <EditText
+        android:id="@+id/mEditText"
+        style="@style/text_style_13_gray"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j178dp"
+        android:background="@drawable/bg_l_w"
+        android:gravity="top"
+        android:hint="请至少输入10个字符的意见反馈"
+        android:maxLength="500"
+        android:padding="@dimen/j10dp" />
+
+    <EditText
+        android:id="@+id/mEditText_phone"
+        style="@style/text_style_13_gray"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j34dp"
+        android:layout_marginTop="@dimen/j10dp"
+        android:background="@drawable/bg_l_w"
+        android:gravity="top"
+        android:hint="请输入11位手机号码（必填）"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:padding="@dimen/j10dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/clk_mTextView_next"
+        style="@style/text_style_15_white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j40dp"
+        android:layout_marginLeft="@dimen/j10dp"
+        android:layout_marginRight="@dimen/j10dp"
+        android:layout_marginTop="@dimen/j20dp"
+        android:background="@drawable/bt_blue_n"
+        android:gravity="center"
+        android:text="提交" />
+</LinearLayout>
+

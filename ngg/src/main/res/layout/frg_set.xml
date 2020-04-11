@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j8dp" />
+
+    <TextView
+        android:id="@+id/mTextView_guanyu"
+        style="@style/text_style_15_black"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j45dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/bt_enter_n"
+        android:gravity="center_vertical"
+        android:padding="@dimen/j10dp"
+        android:text="关于我们" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <TextView
+        android:id="@+id/mTextView_yjfk"
+        style="@style/text_style_15_black"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j45dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/bt_enter_n"
+        android:gravity="center_vertical"
+        android:padding="@dimen/j10dp"
+        android:text="意见反馈" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_clear"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j45dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/j10dp">
+
+        <TextView
+            style="@style/text_style_15_black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="清空缓存" />
+
+        <TextView
+            android:id="@+id/mTextView_huancun"
+            style="@style/text_style_15_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:drawablePadding="@dimen/j10dp"
+            android:drawableRight="@drawable/bt_enter_n"
+            android:gravity="center_vertical"
+            android:text="50M" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <TextView
+        android:id="@+id/clk_mTextView_tuichu"
+        style="@style/text_style_15_white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j40dp"
+        android:layout_marginLeft="@dimen/j10dp"
+        android:layout_marginRight="@dimen/j10dp"
+        android:layout_marginTop="@dimen/j20dp"
+        android:background="@drawable/bt_tuichu_n"
+        android:gravity="center"
+        android:text="退出登录"
+        android:textColor="@color/Eb" />
+</LinearLayout>
+

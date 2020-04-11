@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/j10dp"
+        android:paddingLeft="@dimen/j15dp"
+        android:paddingRight="@dimen/j15dp"
+        android:paddingTop="@dimen/j10dp">
+
+        <TextView
+            android:id="@+id/mTextView_title"
+            style="@style/text_style_15_black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/test" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/j10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mTextView_type"
+                style="@style/text_style_13_gray"
+                android:layout_marginRight="@dimen/j30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="豆角" />
+
+            <TextView
+                android:id="@+id/mTextView_address"
+                style="@style/text_style_13_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="江苏省常州市" />
+        </LinearLayout>
+
+        <com.framewidget.view.FixGridLayout
+            android:id="@+id/mFixGridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/j10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/j10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mTextView_time"
+                style="@style/text_style_11_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12分钟前" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/mTextView_pl"
+                style="@style/text_style_13_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j5dp"
+                android:drawableLeft="@drawable/ic_pinglun"
+                android:drawablePadding="@dimen/j5dp"
+                android:gravity="center_vertical"
+                android:text="23" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j10dp"
+        android:background="#f2f2f2" />
+</LinearLayout>
+

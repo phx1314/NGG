@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    android:padding="@dimen/j10dp">
+
+    <EditText
+        android:id="@+id/mEditText_title"
+        style="@style/text_style_13_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_l_w"
+        android:hint="简单描述你的问题"
+        android:padding="@dimen/j10dp" />
+
+    <EditText
+        android:id="@+id/mEditText_content"
+        style="@style/text_style_13_black"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j129dp"
+        android:layout_marginTop="@dimen/j5dp"
+        android:background="@drawable/bg_l_w"
+        android:gravity="top"
+        android:hint="详细描述你的问题，方便专家解答（选填）"
+        android:padding="@dimen/j10dp" />
+
+    <TextView
+        android:id="@+id/mTextView_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/j8dp"
+        android:layout_marginTop="@dimen/j8dp"
+        android:drawableLeft="@drawable/ic_zuobiao"
+        android:drawablePadding="@dimen/j10dp"
+        android:gravity="center_vertical"
+        android:text="江苏常州" />
+
+    <EditText
+        android:id="@+id/mEditText_title_fu"
+        style="@style/text_style_13_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/j8dp"
+        android:background="@drawable/bg_l_w"
+        android:drawableLeft="@drawable/ic_zuowu"
+        android:drawablePadding="@dimen/j10dp"
+        android:hint="填写与提问相关的作物名称便于系统推送给擅长专家（必填）"
+        android:padding="@dimen/j10dp" />
+
+    <com.framewidget.view.MGridPhotoChoose
+        android:id="@+id/mMGridPhotoChoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/j13dp" />
+</LinearLayout>
+

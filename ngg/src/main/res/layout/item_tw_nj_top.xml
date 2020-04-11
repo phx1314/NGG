@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+     <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/j85dp" android:gravity="center" android:orientation="horizontal">
+          <TextView android:id="@+id/mTextView_1" style="@style/text_style_13_black" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:drawablePadding="@dimen/j5dp" android:drawableTop="@drawable/bt_binghai_n" android:gravity="center" android:text="病害" />
+          <TextView android:id="@+id/mTextView_2" style="@style/text_style_13_black" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:drawablePadding="@dimen/j5dp" android:drawableTop="@drawable/bt_chonghai_n" android:gravity="center" android:text="虫害" />
+          <TextView android:id="@+id/mTextView_3" style="@style/text_style_13_black" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:drawablePadding="@dimen/j5dp" android:drawableTop="@drawable/bt_caohai_n" android:gravity="center" android:text="草害" />
+          <TextView android:id="@+id/mTextView_4" style="@style/text_style_13_black" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:drawablePadding="@dimen/j5dp" android:drawableTop="@drawable/bt_wenda_n" android:gravity="center" android:text="问答" />
+     </LinearLayout>
+     <ImageView android:layout_width="match_parent" android:layout_height="1px" android:background="@color/tyD1" />
+</LinearLayout>
+

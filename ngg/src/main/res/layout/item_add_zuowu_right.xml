@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/j10dp"
+        android:layout_height="wrap_content">
+
+        <com.mdx.framework.widget.MImageView
+            android:id="@+id/mMImageView"
+            android:layout_width="@dimen/j50dp"
+            android:layout_height="@dimen/j50dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/df_wode" />
+
+        <ImageView
+            android:id="@+id/mImageView_dui"
+            android:layout_width="@dimen/j50dp"
+            android:layout_height="@dimen/j50dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/bt_zw_h" />
+
+        <TextView
+            android:id="@+id/mTextView"
+            style="@style/text_style_13_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mMImageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/j5dp"
+            android:text="水稻" />
+    </RelativeLayout>
+</LinearLayout>
+

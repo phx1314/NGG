@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#ffffff" android:orientation="vertical">
+     <com.mdx.framework.widget.MPageListView android:id="@+id/mMPageListView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:background="#f2f2f2" android:cacheColorHint="#00000000" android:divider="@null" android:fadingEdge="none" />
+     <ImageView android:layout_width="match_parent" android:layout_height="1px" android:background="@color/tyD1" />
+     <LinearLayout android:id="@+id/clk_mLinearLayout_add" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#ffffff" android:gravity="center" android:padding="@dimen/j15dp">
+          <TextView style="@style/text_style_15_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="新增收获地址" />
+     </LinearLayout>
+</LinearLayout>
+

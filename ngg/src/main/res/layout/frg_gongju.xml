@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dip"
+        android:background="@color/A"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/j8dp"
+        android:paddingLeft="@dimen/j15dp"
+        android:paddingRight="@dimen/j15dp"
+        android:paddingTop="@dimen/j8dp">
+
+        <TextView
+            android:id="@+id/clk_mTextView_sousuo"
+            style="@style/text_style_15_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_sousuo"
+            android:drawableLeft="@drawable/ic_sousuo"
+            android:drawablePadding="@dimen/j5dp"
+            android:gravity="center_vertical"
+            android:hint="搜索问题/技术/专家"
+            android:paddingLeft="@dimen/j5dp" />
+
+        <RelativeLayout
+            android:id="@+id/clk_mRelativeLayout_xiaoxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/mImageView_xiaoxi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j15dp"
+                android:src="@drawable/bt_xiaoxi_n" />
+
+            <ImageView
+                android:id="@+id/mImageView_xiaoxi_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/mImageView_xiaoxi"
+                android:layout_marginLeft="@dimen/j15dp"
+                android:src="@drawable/rm_xiaoxi" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.mdx.framework.widget.MPageListView
+        android:id="@+id/mMPageListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:fadingEdge="none" />
+</LinearLayout>
+

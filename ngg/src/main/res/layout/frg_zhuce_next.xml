@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j5dp"
+        android:background="#f2f2f2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j45dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/j15dp"
+        android:paddingRight="@dimen/j15dp">
+
+        <EditText
+            android:id="@+id/mEditText_yanzhenma"
+            style="@style/text_style_15_black"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/j45dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center_vertical"
+            android:hint="输入验证码"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/clk_mTextView_get"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取验证码"
+            android:textColor="@color/Ea"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <EditText
+        android:id="@+id/mEditText_set"
+        style="@style/text_style_15_black"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j45dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:hint="设置密码"
+        android:paddingLeft="@dimen/j15dp"
+        android:paddingRight="@dimen/j15dp"
+        android:singleLine="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <EditText
+        android:id="@+id/mEditText_setagin"
+        style="@style/text_style_15_black"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j45dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:hint="再次输入密码"
+        android:paddingLeft="@dimen/j15dp"
+        android:paddingRight="@dimen/j15dp"
+        android:singleLine="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <EditText
+        android:id="@+id/mEditText_yqm"
+        style="@style/text_style_15_black"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j45dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:hint="输入邀请码"
+        android:paddingLeft="@dimen/j15dp"
+        android:paddingRight="@dimen/j15dp"
+        android:singleLine="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <TextView
+        android:id="@+id/mTextView_wancheng"
+        style="@style/text_style_15_white"
+        android:layout_width="@dimen/j290dp"
+        android:layout_height="@dimen/j40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/j20dp"
+        android:background="@drawable/bt_blue_n"
+        android:gravity="center"
+        android:text="完成" />
+</LinearLayout>
+

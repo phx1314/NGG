@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j135dp"
+        android:background="@drawable/bg_nzxq">
+
+        <ImageView
+            android:id="@+id/mImageView_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/j10dp"
+            android:src="@drawable/bt_back_n" />
+
+        <com.mdx.framework.widget.MImageView
+            android:id="@+id/mImageView_touxiang"
+            android:layout_width="@dimen/j70dp"
+            android:layout_height="@dimen/j70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/j20dp"
+            android:src="@drawable/morentouxiang_n" />
+
+        <TextView
+            android:id="@+id/mTextView_name"
+            style="@style/text_style_15_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mImageView_touxiang"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/j5dp"
+              />
+
+        <ImageView
+            android:id="@+id/mImageView_zhuanjia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/mTextView_name"
+            android:layout_marginLeft="@dimen/j5dp"
+            android:layout_toRightOf="@+id/mTextView_name"
+            android:src="@drawable/ic_gfqby_h" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/mTextView_gongzuodanwei"
+        style="@style/text_style_15_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/j15dp"
+        android:layout_marginRight="@dimen/j15dp"
+        android:layout_marginTop="@dimen/j10dp"
+      />
+
+    <TextView
+        android:id="@+id/mTextView_nianxiang"
+        style="@style/text_style_15_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/j15dp"
+        android:layout_marginRight="@dimen/j15dp"
+        android:layout_marginTop="@dimen/j10dp"
+       />
+
+    <TextView
+        android:id="@+id/mTextView_chanpin"
+        style="@style/text_style_15_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/j15dp"
+        android:layout_marginRight="@dimen/j15dp"
+        android:layout_marginTop="@dimen/j10dp"
+        />
+
+    <TextView
+        style="@style/text_style_15_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/j15dp"
+        android:layout_marginRight="@dimen/j15dp"
+        android:layout_marginTop="@dimen/j10dp"
+        android:text="个人简历" />
+
+    <TextView
+        android:id="@+id/mTextView_jianli"
+        style="@style/text_style_15_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/j15dp"
+        android:layout_marginLeft="@dimen/j15dp"
+        android:layout_marginRight="@dimen/j15dp"
+        android:layout_marginTop="@dimen/j10dp"
+ />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j35dp"
+        android:background="#f2f2f2f2"
+        android:drawableLeft="@drawable/ic_lsqb"
+        android:drawablePadding="@dimen/j10dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/j20dp"
+        android:text="历史情报" />
+</LinearLayout>
+

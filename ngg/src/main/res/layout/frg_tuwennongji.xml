@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j35dp"
+        android:orientation="horizontal">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/mLinearLayout_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingRight="@dimen/j10dp" />
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:id="@+id/mLinearLayout_add"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/j35dp"
+            android:background="@drawable/bg_tianjia"
+            android:gravity="center"
+            android:paddingLeft="@dimen/j10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bt_tjfl_n" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f2f2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/j28dp"
+            android:layout_marginBottom="@dimen/j10dp"
+            android:layout_marginLeft="@dimen/j15dp"
+            android:layout_marginRight="@dimen/j15dp"
+            android:layout_marginTop="@dimen/j10dp"
+            android:background="@drawable/bg_sousuo"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/mEditText_sousuo"
+                style="@style/text_style_13_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:background="#00000000"
+                android:drawableLeft="@drawable/ic_sousuo"
+                android:drawablePadding="@dimen/j5dp"
+                android:gravity="center_vertical"
+                android:hint="请输入有效成分"
+                android:paddingLeft="@dimen/j5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.mdx.framework.widget.MPageListView
+        android:id="@+id/mMPageListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/line"
+        android:fadingEdge="none" />
+</LinearLayout>
+

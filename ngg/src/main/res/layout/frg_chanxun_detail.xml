@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j23dp"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/j15dp"
+                android:paddingRight="@dimen/j15dp">
+
+                <TextView
+                    style="@style/text_style_13_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="生产厂家:" />
+
+                <TextView
+                    android:id="@+id/mTextView_changjia"
+                    style="@style/text_style_13_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j9dp"
+                   />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j15dp"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/j15dp"
+                android:paddingRight="@dimen/j15dp">
+
+                <TextView
+                    style="@style/text_style_13_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="登记证号:" />
+
+                <TextView
+                    android:id="@+id/mTextView_dj"
+                    style="@style/text_style_13_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j9dp"
+                     />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j15dp"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/j15dp"
+                android:paddingRight="@dimen/j15dp">
+
+                <TextView
+                    style="@style/text_style_13_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="    总含量:" />
+
+                <TextView
+                    android:id="@+id/mTextView_hl"
+                    style="@style/text_style_13_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j9dp"
+                     />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j15dp"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/j15dp"
+                android:paddingRight="@dimen/j15dp">
+
+                <TextView
+                    style="@style/text_style_13_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="有效成分:" />
+
+                <TextView
+                    android:id="@+id/mTextView_cf"
+                    style="@style/text_style_13_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j9dp"
+                     />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j15dp"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/j15dp"
+                android:paddingRight="@dimen/j15dp">
+
+                <TextView
+                    style="@style/text_style_13_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="毒性名称:" />
+
+                <TextView
+                    android:id="@+id/mTextView_dx"
+                    style="@style/text_style_13_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j9dp"
+                     />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j15dp"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/j15dp"
+                android:paddingRight="@dimen/j15dp">
+
+                <TextView
+                    style="@style/text_style_13_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="剂型名称:" />
+
+                <TextView
+                    android:id="@+id/mTextView_jx"
+                    style="@style/text_style_13_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j9dp"
+                     />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/j15dp"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/j15dp"
+                android:paddingRight="@dimen/j15dp">
+
+                <TextView
+                    style="@style/text_style_13_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="起止日期:" />
+
+                <TextView
+                    android:id="@+id/mTextView_time"
+                    style="@style/text_style_13_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/j9dp"
+                     />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="@dimen/j25dp"
+                android:background="@color/tyD1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/j8dp"
+                android:background="#f2f2f2" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:layout_marginRight="@dimen/j10dp"
+                android:layout_marginTop="@dimen/j18dp"
+                android:background="#E9E9E9E9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/j32dp"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:layout_marginRight="@dimen/j10dp"
+                android:background="#f9f9f9"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="#E9E9E9E9" />
+
+                <TextView
+                    style="@style/text_style_13_black"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/j12dp"
+                    android:paddingRight="@dimen/j12dp"
+                    android:text="防治作物" />
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="#E9E9E9E9" />
+
+                <TextView
+                    style="@style/text_style_13_black"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="防治对象" />
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="#E9E9E9E9" />
+
+                <TextView
+                    style="@style/text_style_13_black"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="使用剂量" />
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="#E9E9E9E9" />
+
+                <TextView
+                    style="@style/text_style_13_black"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/j12dp"
+                    android:paddingRight="@dimen/j12dp"
+                    android:text="应用方法" />
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="#E9E9E9E9" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:layout_marginRight="@dimen/j10dp"
+                android:background="#E9E9E9E9" />
+
+            <LinearLayout
+                android:id="@+id/mLinearLayout_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"></LinearLayout>
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="@dimen/j17dp"
+                android:background="@color/tyD1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/j8dp"
+                android:background="#f2f2f2" />
+
+            <LinearLayout
+                android:id="@+id/mLinearLayout_address"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/j40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mTextView_address"
+                    style="@style/text_style_15_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_dizhi"
+                    android:singleLine="true"
+                    android:drawablePadding="@dimen/j15dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/j15dp"
+                    android:text="常州市新北区太湖东路" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/j15dp"
+                    android:drawablePadding="@dimen/j5dp"
+                    android:drawableRight="@drawable/bt_enter_n"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/j15dp"
+                    android:text="附近农企"
+                    android:textColor="@color/Ea"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/j8dp"
+                android:background="#f2f2f2" />
+
+            <TextView
+                android:id="@+id/mTextView_phone"
+                style="@style/text_style_15_black"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/j40dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/j15dp"
+                android:text="电话：13915079457" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/tyD1" />
+
+            <TextView
+                android:id="@+id/mTextView_czh"
+                style="@style/text_style_15_black"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/j40dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/j15dp"
+                android:text="传真：13915079457" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/tyD1" />
+
+            <TextView
+                android:id="@+id/mTextView_yb"
+                style="@style/text_style_15_black"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/j40dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/j15dp"
+                android:text="邮编：13915079457" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/tyD1" />
+
+            <TextView
+                android:id="@+id/mTextView_lianxiren"
+                style="@style/text_style_15_black"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/j40dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/j15dp"
+                android:text="联系人：13915079457" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/tyD1" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

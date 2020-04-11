@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    android:padding="@dimen/j10dp">
+
+    <EditText
+        android:id="@+id/mEditText_content"
+        style="@style/text_style_13_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_l_w"
+        android:gravity="top"
+        android:hint="请输入邀请码"
+        android:padding="@dimen/j10dp"
+        android:singleLine="true" />
+
+</LinearLayout>
+

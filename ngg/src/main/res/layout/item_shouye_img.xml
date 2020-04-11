@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="@dimen/j75dp"
+        android:layout_height="@dimen/j75dp"
+        >
+
+        <com.mdx.framework.widget.MImageView
+            android:id="@+id/mImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_avatar" />
+
+        <TextView
+            android:id="@+id/mTextView"
+            style="@style/text_style_11_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="#88000000"
+            android:paddingBottom="@dimen/j2dp"
+            android:paddingLeft="@dimen/j10dp"
+            android:paddingRight="@dimen/j10dp"
+            android:paddingTop="@dimen/j2dp"
+            android:text="共4张"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>
+

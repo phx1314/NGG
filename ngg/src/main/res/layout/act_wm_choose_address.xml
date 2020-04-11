@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j44dp"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/j7dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/j10dp"
+        android:paddingTop="@dimen/j7dp" >
+
+        <ImageView
+            android:id="@+id/mImageView_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bt_back_n" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/j10dp"
+            android:layout_marginRight="@dimen/j10dp"
+            android:background="@drawable/yslt_bj_hyss_n"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/mEditText_search"
+                style="@style/text_style_13_black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:hint="请输入地址"
+                android:padding="@dimen/j5dp"
+                android:singleLine="true" />
+
+            <ImageButton
+                android:id="@+id/mImageButton_serach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/j5dp"
+                android:background="#00000000"
+                android:src="@drawable/yslt_bt_search_n" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/j200dp" >
+
+        <com.amap.api.maps.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/j200dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_lan" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/D" />
+
+    <ListView
+        android:id="@+id/lv_address"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@drawable/line"
+        android:listSelector="#00000000"
+        android:scrollbars="none" />
+
+</LinearLayout>

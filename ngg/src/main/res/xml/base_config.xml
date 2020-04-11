@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Base TempPath="NGG" BaseUri="http://120.27.232.223/ngg" AppId="appid" UseSdcard="true" UpdateUri="http://app.udows.com:82/version/mobile?methodno=MUpdate">
+    <!--http://120.27.232.223/ngg/manager/admin-->
+    <!--http://apptest.udows.com:188-->
+    <!--http://canyin.udows.com-->
+    <!--page                  分页参数名    
+        pagesize              每页数量参数名   
+        MaxImageSize          最大图片缓存   
+        MaxFileSize  		     最大文件缓存  
+        MaxDataSize           最大接口缓存空间  
+        WebServiceNamespace   WebService的命名空间名称   
+        source 				  来源   0是测试 1是正式
+        WebServiceUrl         WebService接口的 url-->
+<!--     <param name="page">page</param> -->
+
+
+    <param name="ErrorUpdateUrl">http://app.udows.com:82/version/mobile?methodno=MUpdateError</param>
+
+<!--     <param name="pagesize">limit</param> -->
+<!--     <param name="pagesizenum">10</param> -->
+<!--     <param name="id">value</param> -->
+
+    <param name="source">1</param>
+    <!-- webservicenamespace -->
+    <param name="WebServiceNamespace">value</param>
+
+     <!-- WebServiceUrl -->
+    <param name="WebServiceUrl">value</param>
+
+    <param name="DefaultFragment">com.ntdlg.ngg.frg.Fraloading</param>
+
+
+</Base>

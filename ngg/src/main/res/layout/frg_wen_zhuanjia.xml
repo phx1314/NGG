@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dip"
+        android:background="@color/A"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/j8dp"
+        android:paddingRight="@dimen/j10dp"
+        android:paddingTop="@dimen/j8dp">
+
+        <ImageView
+            android:id="@+id/mImageView_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/j10dp"
+            android:paddingRight="@dimen/j13dp"
+            android:src="@drawable/bt_back_n" />
+
+        <EditText
+            android:id="@+id/mEditText_sousuo"
+            style="@style/text_style_15_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_sousuo"
+            android:singleLine="true"
+            android:drawableLeft="@drawable/ic_sousuo"
+            android:drawablePadding="@dimen/j5dp"
+            android:gravity="center_vertical"
+            android:hint="搜索问题"
+            android:paddingLeft="@dimen/j5dp" />
+
+        <RelativeLayout
+            android:id="@+id/clk_mRelativeLayout_xiaoxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/j13dp">
+
+            <ImageView
+                android:id="@+id/mImageView_xiaoxi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bt_xiaoxi_n" />
+
+            <ImageView
+                android:id="@+id/mImageView_xiaoxi_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/mImageView_xiaoxi"
+                android:src="@drawable/rm_xiaoxi" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j35dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/clk_mLinearLayout_leixing"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mTextView_lexing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bt_zjlx_n"
+                android:drawablePadding="@dimen/j8dp"
+                android:drawableRight="@drawable/bt_sanjiao_n"
+                android:gravity="center_vertical"
+                android:text="专家类型"
+                android:textColor="@color/E4"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="1px"
+            android:layout_height="@dimen/j25dp"
+            android:background="@color/tyD1" />
+
+        <LinearLayout
+            android:id="@+id/clk_mLinearLayout_paixu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mTextView_paixu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bt_znpx_n"
+                android:drawablePadding="@dimen/j8dp"
+                android:drawableRight="@drawable/bt_sanjiao_n"
+                android:gravity="center_vertical"
+                android:text="智能排序"
+                android:textColor="@color/E4"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1px"-->
+        <!--android:background="@color/tyD1" />-->
+
+    <com.mdx.framework.widget.MPageListView
+        android:id="@+id/mMPageListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/line"
+        android:fadingEdge="none" />
+</LinearLayout>
+

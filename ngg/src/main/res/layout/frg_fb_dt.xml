@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    android:padding="@dimen/j10dp">
+
+    <EditText
+        android:id="@+id/mEditText_content"
+        style="@style/text_style_13_black"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j129dp"
+        android:background="@drawable/bg_l_w"
+        android:gravity="top"
+        android:hint="请输入文字"
+        android:padding="@dimen/j10dp" />
+
+    <TextView
+        android:id="@+id/mTextView_store_address"
+        style="@style/text_style_13_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/j18dp"
+        android:layout_marginTop="@dimen/j9dp"
+        android:drawableLeft="@drawable/ic_zuobiao"
+        android:drawablePadding="@dimen/j6dp"
+        android:gravity="center_vertical"
+        android:text="江苏常州" />
+
+    <com.framewidget.view.MGridPhotoChoose
+        android:id="@+id/mMGridPhotoChoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/j13dp" />
+</LinearLayout>
+

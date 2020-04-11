@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+     <!-- Base application theme. -->
+     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+          <!-- Customize your theme here. -->
+          <item name="colorPrimary">@color/colorPrimary</item>
+          <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+          <item name="colorAccent">@color/colorAccent</item>
+     </style>
+     <style name="menu">
+          <item name="android:background">#00000000</item>
+          <item name="android:layout_width">wrap_content</item>
+          <item name="android:layout_height">wrap_content</item>
+          <item name="android:button">@null</item>
+          <item name="android:gravity">center</item>
+          <item name="android:textColor">@drawable/select_text</item>
+          <item name="android:textSize">14sp</item>
+          <item name="android:layout_weight">1.0</item>
+          <item name="android:singleLine">true</item>
+          <item name="android:paddingTop">5.0dip</item>
+          <item name="android:drawablePadding">2dip</item>
+     </style>
+     <style name="menu_tab">
+          <item name="android:background">@drawable/bg_tab</item>
+     </style>
+
+     <style name="actionbarback">
+          <item name="android:layout_width">wrap_content</item>
+          <item name="android:layout_height">wrap_content</item>
+          <item name="android:layout_centerVertical">true</item>
+          <item name="android:background">#00000000</item>
+          <item name="android:scaleType">fitXY</item>
+          <item name="android:src">@drawable/bt_back_n</item>
+          <item name="android:paddingLeft">7dp</item>
+          <item name="android:paddingRight">7dp</item>
+     </style>
+
+</resources>
+

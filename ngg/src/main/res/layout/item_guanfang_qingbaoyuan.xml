@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:padding="@dimen/j10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mTextView_tilte"
+                style="@style/text_style_15_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_blue"
+                android:drawablePadding="@dimen/j10dp"
+                android:text="双氧水" />
+
+            <ImageView
+                android:id="@+id/mImageView_fabu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_sqdbmd_n" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/mTextView_sn"
+            style="@style/text_style_13_black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/j15dp"
+            android:text="双氧水双氧水双氧水双氧水双氧水双氧水双氧水双氧水双氧水双氧水双氧水双氧水双氧水双氧水" />
+
+        <TextView
+            android:id="@+id/mTextView_pj"
+            style="@style/text_style_13_gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/j15dp"
+            android:text="评价：双氧水双氧水双氧水双氧水双氧水双氧水双氧水双氧水双氧水双氧水双氧水双氧水双氧水双氧水" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/j28dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mTextView_xinxi"
+                style="@style/text_style_13_gray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="官方员信息：李德华" />
+
+            <TextView
+                android:id="@+id/mTextView_time"
+                style="@style/text_style_13_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10分钟前" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j8dp"
+        android:background="#f2f2f2" />
+</LinearLayout>
+

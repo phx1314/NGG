@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/j10dp">
+
+    <CheckBox
+        android:id="@+id/mCheckBox"
+        android:layout_width="@dimen/j20dp"
+        android:layout_height="match_parent"
+        android:button="@drawable/btn_checked_checkbox"
+        android:checked="true" />
+
+    <com.mdx.framework.widget.MImageView
+        android:id="@+id/mMImageView"
+        android:layout_width="@dimen/j60dp"
+        android:layout_height="@dimen/j60dp"
+        android:layout_marginLeft="@dimen/j7dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_avatar" />
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/j7dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mTextView_title"
+            style="@style/text_style_13_black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/test" />
+
+        <TextView
+            android:id="@+id/mTextView_remark"
+            style="@style/text_style_13_gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/j3dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/test" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mTextView_price"
+                style="@style/text_style_13_black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="单价￥6.6" />
+
+            <LinearLayout
+                android:id="@+id/mLinearLayout_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+               >
+
+                <ImageView
+                    android:id="@+id/mImageView_jian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bt_jian_n" />
+
+                <TextView
+                    android:id="@+id/mTextView_num"
+                    style="@style/text_style_13_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_number"
+                    android:gravity="center"
+                    android:text="1" />
+
+                <ImageView
+                    android:id="@+id/mImageView_jia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bt_jia_n" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

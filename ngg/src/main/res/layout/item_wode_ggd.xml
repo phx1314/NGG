@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#ffffff" android:orientation="vertical">
+     <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/j70dp" android:orientation="horizontal" android:padding="@dimen/j12dp">
+          <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center_vertical" android:orientation="vertical">
+               <TextView android:id="@+id/mTextView_title" style="@style/text_style_15_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="用户答案被采纳" />
+               <TextView android:id="@+id/mTextView_time" style="@style/text_style_13_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/j10dp" android:text="2016-05-08" />
+          </LinearLayout>
+          <TextView android:id="@+id/mTextView_num" style="@style/text_style_15_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/j10dp" android:text="+50" />
+     </LinearLayout>
+</LinearLayout>
+

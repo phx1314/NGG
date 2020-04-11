@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Apis>
+  <Api Package="com.udows.common.proto" Name="ngg" 
+     ApiUrl="/mobile?methodno=">
+    <!--新闻资讯(分页)-->
+    <Url name="MNewsList" type="21" errorType="0" cacheTime="1" className=".MNewsList">MNewsList</Url>
+    <!--积分日志列表(需要登录,分页)-->
+    <Url name="MCreditLogList" type="21" errorType="0" cacheTime="1" className=".MCreditLogList">MCreditLogList</Url>
+    <!--上传文件(需要登录)-->
+    <Url name="MUploadFile" type="21" errorType="0" cacheTime="1" className=".MRet">MUploadFile</Url>
+    <!--用户反馈-->
+    <Url name="MFeedback" type="21" errorType="0" cacheTime="1" className=".MRet">MFeedback</Url>
+    <!--获取系统常量-->
+    <Url name="MSysParams" type="21" errorType="0" cacheTime="1" className=".MSysParams">MSysParams</Url>
+    <!--获取单个系统常量-->
+    <Url name="MSysParamByCode" type="21" errorType="0" cacheTime="1" className=".MRet">MSysParamByCode</Url>
+    <!--焦点图列表-->
+    <Url name="MFocusList" type="21" errorType="0" cacheTime="1" className=".MFocusList">MFocusList</Url>
+    <!--通知列表(需要登录,分页)-->
+    <Url name="MNotifyList" type="21" errorType="0" cacheTime="1" className=".MNotifyList">MNotifyList</Url>
+    <!--通知详情(需要登录)-->
+    <Url name="MNotify" type="21" errorType="0" cacheTime="1" className=".MNotify">MNotify</Url>
+    <!--删除通知(需要登录)-->
+    <Url name="MDelNotify" type="21" errorType="0" cacheTime="1" className=".MRet">MDelNotify</Url>
+    <!--通知设为已读(需要登录)-->
+    <Url name="MReadNotify" type="21" errorType="0" cacheTime="1" className=".MRet">MReadNotify</Url>
+    <!--通知未读个数(需要登录)-->
+    <Url name="MCountNotify" type="21" errorType="0" cacheTime="1" className=".MRet">MCountNotify</Url>
+    <!--积分商城(分页)-->
+    <Url name="MCreditGoodsList" type="21" errorType="0" cacheTime="1" className=".MCreditGoodsList">MCreditGoodsList</Url>
+    <!--积分商城兑换记录(登录,分页)-->
+    <Url name="MCreditExchangeLogList" type="21" errorType="0" cacheTime="1" className=".MCreditExchangeLogList">MCreditExchangeLogList</Url>
+    <!--积分商城兑换(登录)-->
+    <Url name="MCreditGoodsExchange" type="21" errorType="0" cacheTime="1" className=".MRet">MCreditGoodsExchange</Url>
+    <!--首页热门问答-->
+    <Url name="MIndexHotTopic" type="21" errorType="0" cacheTime="1" className=".STopicList">MIndexHotTopic</Url>
+    <!--农业资讯-->
+    <Url name="MIndexNewsList" type="21" errorType="0" cacheTime="1" className=".MNotifyList">MIndexNewsList</Url>
+    <!--搜索问题-->
+    <Url name="MSearchQues" type="21" errorType="0" cacheTime="1" className=".STopicList">MSearchQues</Url>
+    <!--搜索商品-->
+    <Url name="MSearchGoods" type="21" errorType="0" cacheTime="1" className=".MGoodsList">MSearchGoods</Url>
+    <!--搜索技术-->
+    <Url name="MSearchTech" type="21" errorType="0" cacheTime="1" className=".MArticleList">MSearchTech</Url>
+    <!--搜索专家-->
+    <Url name="MSearchPro" type="21" errorType="0" cacheTime="1" className=".SUserList">MSearchPro</Url>
+    <!--商家分类-->
+    <Url name="MStoreCateList" type="21" errorType="0" cacheTime="1" className=".MStoreCateList">MStoreCateList</Url>
+    <!--商家列表地图模式-->
+    <Url name="MMapStoreList" type="21" errorType="0" cacheTime="1" className=".MMapStoreList">MMapStoreList</Url>
+    <!--专家分类-->
+    <Url name="MProCategory" type="21" errorType="0" cacheTime="1" className=".MCategoryList">MProCategory</Url>
+    <!--专家列表(分页)-->
+    <Url name="MProList" type="21" errorType="0" cacheTime="1" className=".SUserList">MProList</Url>
+    <!--农作物分类(二级)-->
+    <Url name="MCropCateSecond" type="21" errorType="0" cacheTime="1" className=".MCategoryList">MCropCateSecond</Url>
+    <!--农作物分类(全部)-->
+    <Url name="MCropCate" type="21" errorType="0" cacheTime="1" className=".MCategoryList">MCropCate</Url>
+    <!--专家上门-->
+    <Url name="MProVisit" type="21" errorType="0" cacheTime="1" className=".MRet">MProVisit</Url>
+    <!--门诊挂号单(登陆,分页)-->
+    <Url name="MCropOutpatientList" type="21" errorType="0" cacheTime="1" className=".MCropOutpatientList">MCropOutpatientList</Url>
+    <!--门诊挂号单修改(登陆)-->
+    <Url name="MCropOutpatientUpdate" type="21" errorType="0" cacheTime="1" className=".MRet">MCropOutpatientUpdate</Url>
+    <!--门诊挂号单付定金(登陆)-->
+    <Url name="MCropOutpatientDeposit" type="21" errorType="0" cacheTime="1" className=".MPayMixOrder">MCropOutpatientDeposit</Url>
+    <!--门诊挂号单付尾款(登陆)-->
+    <Url name="MCropOutpatientAfter" type="21" errorType="0" cacheTime="1" className=".MPayMixOrder">MCropOutpatientAfter</Url>
+    <!--获取验证码-->
+    <Url name="MGetMobileMsg" type="21" errorType="0" cacheTime="1" className=".MRet">MGetMobileMsg</Url>
+    <!--验证验证码-->
+    <Url name="MCheckMobileMsg" type="21" errorType="0" cacheTime="1" className=".MRet">MCheckMobileMsg</Url>
+    <!--注册-->
+    <Url name="MRegist" type="21" errorType="0" cacheTime="1" className=".MAccount">MRegist</Url>
+    <!--登录-->
+    <Url name="MLogin" type="21" errorType="0" cacheTime="1" className=".MAccount">MLogin</Url>
+    <!--第三方登录-->
+    <Url name="MOauthLogin" type="21" errorType="0" cacheTime="1" className=".MAccount">MOauthLogin</Url>
+    <!--完善用户资料(需要登录)-->
+    <Url name="MUpdateUser" type="21" errorType="0" cacheTime="1" className=".SUser">MUpdateUser</Url>
+    <!--忘记密码 -->
+    <Url name="MForgetPassword" type="21" errorType="0" cacheTime="1" className=".MAccount">MForgetPassword</Url>
+    <!--修改密码(需要登录)-->
+    <Url name="MChangePassword" type="21" errorType="0" cacheTime="1" className=".MRet">MChangePassword</Url>
+    <!--注销(需要登录)-->
+    <Url name="MLogout" type="21" errorType="0" cacheTime="1" className=".MRet">MLogout</Url>
+    <!--绑定手机(需要登录)-->
+    <Url name="MBindPhone" type="21" errorType="0" cacheTime="1" className=".MRet">MBindPhone</Url>
+    <!--商品详情-->
+    <Url name="MGoodsDetail" type="21" errorType="0" cacheTime="1" className=".MScGoods">MGoodsDetail</Url>
+    <!--商品加入购物车(需要登录)-->
+    <Url name="MAddShopCart" type="21" errorType="0" cacheTime="1" className=".MRet">MAddShopCart</Url>
+    <!--编辑购物车数量(需要登录)-->
+    <Url name="MEditShopCart" type="21" errorType="0" cacheTime="1" className=".MRet">MEditShopCart</Url>
+    <!--修改购物车商品规格(需要登录)-->
+    <Url name="MEditShopCartSn" type="21" errorType="0" cacheTime="1" className=".MCart">MEditShopCartSn</Url>
+    <!--获取购物车数量(需要登录)-->
+    <Url name="MShopCartNum" type="21" errorType="0" cacheTime="1" className=".MRet">MShopCartNum</Url>
+    <!--删除购物车商品(需要登录)-->
+    <Url name="MDelShopCart" type="21" errorType="0" cacheTime="1" className=".MRet">MDelShopCart</Url>
+    <!--我的购物车(需要登录)-->
+    <Url name="MShopCartList" type="21" errorType="0" cacheTime="1" className=".MShoppingCartList">MShopCartList</Url>
+    <!--我的优惠券(需要登录)-->
+    <Url name="MMyCouponList" type="21" errorType="0" cacheTime="1" className=".MCouponList">MMyCouponList</Url>
+    <!--购物车匹配可用优惠券(需要登录)-->
+    <Url name="MCatchStoreCoupon" type="21" errorType="0" cacheTime="1" className=".MShoppingCartList">MCatchStoreCoupon</Url>
+    <!--商品匹配可用优惠券(需要登录)-->
+    <Url name="MCatchGoodsCoupon" type="21" errorType="0" cacheTime="1" className=".MShoppingCart">MCatchGoodsCoupon</Url>
+    <!--我的现金券(需要登录,分页)-->
+    <Url name="MMyCashList" type="21" errorType="0" cacheTime="1" className=".MCouponList">MMyCashList</Url>
+    <!--我的余额(需要登录)-->
+    <Url name="MMyMoney" type="21" errorType="0" cacheTime="1" className=".MRet">MMyMoney</Url>
+    <!--我的地址(需要登录)-->
+    <Url name="MMyAddressList" type="21" errorType="0" cacheTime="1" className=".MUserAddressList">MMyAddressList</Url>
+    <!--删除我的地址(需要登录)-->
+    <Url name="MDelMyAddress" type="21" errorType="0" cacheTime="1" className=".MRet">MDelMyAddress</Url>
+    <!--编辑地址(需要登录)-->
+    <Url name="MEditAddress" type="21" errorType="0" cacheTime="1" className=".MRet">MEditAddress</Url>
+    <!--我的订单列表(需要登录,分页)-->
+    <Url name="MMyOrderList" type="21" errorType="0" cacheTime="1" className=".MOrderList">MMyOrderList</Url>
+    <!--购物车订单(需要登录)-->
+    <Url name="MAddOrder" type="21" errorType="0" cacheTime="1" className=".MPayMixOrder">MAddOrder</Url>
+    <!--添加单品订单(需要登录)-->
+    <Url name="MAddSingleOrder" type="21" errorType="0" cacheTime="1" className=".MPayMixOrder">MAddSingleOrder</Url>
+    <!--进入付款(需要登录)-->
+    <Url name="MToPay" type="21" errorType="0" cacheTime="1" className=".MPayMixOrder">MToPay</Url>
+    <!--进入付款前,计算支付金额(需要登录)-->
+    <Url name="MBeforePay" type="21" errorType="0" cacheTime="1" className=".MPayMixOrder">MBeforePay</Url>
+    <!--添加商品评论(需要登录)-->
+    <Url name="MAddComment" type="21" errorType="0" cacheTime="1" className=".MRet">MAddComment</Url>
+    <!--修改订单(需要登录)-->
+    <Url name="MUpdateOrder" type="21" errorType="0" cacheTime="1" className=".MRet">MUpdateOrder</Url>
+    <!--订单详情(需要登录)-->
+    <Url name="MOrderInfo" type="21" errorType="0" cacheTime="1" className=".MOrder">MOrderInfo</Url>
+    <!--评论列表(分页)-->
+    <Url name="MCommentList" type="21" errorType="0" cacheTime="1" className=".MGoodsCommentList">MCommentList</Url>
+    <!--获取商品兑换码-->
+    <Url name="MGetGoodsCodeList" type="21" errorType="0" cacheTime="1" className=".MGoodsCodeList">MGetGoodsCodeList</Url>
+    <!--需要支付额为0是调用接口-->
+    <Url name="MFinishPay" type="21" errorType="0" cacheTime="1" className=".MRet">MFinishPay</Url>
+    <!--货到付款+线上支付拆分-->
+    <Url name="MGetTwoPrice" type="21" errorType="0" cacheTime="1" className=".MPayMixOrder">MGetTwoPrice</Url>
+    <!--商品收藏(登陆)-->
+    <Url name="MGoodsCollect" type="21" errorType="0" cacheTime="1" className=".MRet">MGoodsCollect</Url>
+    <!--论坛分类列表(需要登录)-->
+    <Url name="SForumCategoryList" type="21" errorType="0" cacheTime="1" className=".SForumCategoryList">SForumCategoryList</Url>
+    <!--论坛详情(需要登录)-->
+    <Url name="SForumDetail" type="21" errorType="0" cacheTime="1" className=".SForumDetail">SForumDetail</Url>
+    <!--编辑好友(需要登录)-->
+    <Url name="SEditFriend" type="21" errorType="0" cacheTime="1" className=".MRet">SEditFriend</Url>
+    <!--我的好友(需要登录)-->
+    <Url name="SMyFriends" type="21" errorType="0" cacheTime="1" className=".SUserList">SMyFriends</Url>
+    <!--添加问答(登录)-->
+    <Url name="SAddTopic" type="21" errorType="0" cacheTime="1" className=".MRet">SAddTopic</Url>
+    <!--删除问答(登录)-->
+    <Url name="SDelTopic" type="21" errorType="0" cacheTime="1" className=".MRet">SDelTopic</Url>
+    <!--问答列表(分页)-->
+    <Url name="STopicList" type="21" errorType="0" cacheTime="1" className=".STopicList">STopicList</Url>
+    <!--我的问题(登录,分页)-->
+    <Url name="SMyTopicList" type="21" errorType="0" cacheTime="1" className=".STopicList">SMyTopicList</Url>
+    <!--用户的问题(分页)-->
+    <Url name="SUserTopicList" type="21" errorType="0" cacheTime="1" className=".STopicList">SUserTopicList</Url>
+    <!--用户问答过的问题(分页)-->
+    <Url name="SUserReplyList" type="21" errorType="0" cacheTime="1" className=".STopicList">SUserReplyList</Url>
+    <!--用户问答过的问题(登陆,分页)-->
+    <Url name="SMyReplyList" type="21" errorType="0" cacheTime="1" className=".STopicList">SMyReplyList</Url>
+    <!--我的回答(登录,分页)-->
+    <Url name="SMyJoinTopicList" type="21" errorType="0" cacheTime="1" className=".SForumNotifyList">SMyJoinTopicList</Url>
+    <!--用户回答赞或倒(登陆)-->
+    <Url name="SUserReplyPraise" type="21" errorType="0" cacheTime="1" className=".MRet">SUserReplyPraise</Url>
+    <!--我的问答消息(登录,分页)-->
+    <Url name="SMyNotifyList" type="21" errorType="0" cacheTime="1" className=".SForumNotifyList">SMyNotifyList</Url>
+    <!--问答帖子详情-->
+    <Url name="STopicDetail" type="21" errorType="0" cacheTime="1" className=".STopic">STopicDetail</Url>
+    <!--重新编辑回答(登陆)-->
+    <Url name="SReplyEdit" type="21" errorType="0" cacheTime="1" className=".MRet">SReplyEdit</Url>
+    <!--撤回解答(登陆)-->
+    <Url name="SReplyDel" type="21" errorType="0" cacheTime="1" className=".MRet">SReplyDel</Url>
+    <!--添加问答评论(登录)-->
+    <Url name="SAddTopicComment" type="21" errorType="0" cacheTime="1" className=".MRet">SAddTopicComment</Url>
+    <!--删除帖子评论(登录)-->
+    <Url name="SDelTopicComment" type="21" errorType="0" cacheTime="1" className=".MRet">SDelTopicComment</Url>
+    <!--问答帖子评论列表(分页)-->
+    <Url name="STopicComments" type="21" errorType="0" cacheTime="1" className=".STopicList">STopicComments</Url>
+    <!--评论(朋友圈)回复列表(分页)-->
+    <Url name="SCommentReplys" type="21" errorType="0" cacheTime="1" className=".SReplyList">SCommentReplys</Url>
+    <!--添加评论回复(登录)-->
+    <Url name="SAddCommentReply" type="21" errorType="0" cacheTime="1" className=".MRet">SAddCommentReply</Url>
+    <!--删除评论回复(登录)-->
+    <Url name="SDelCommentReply" type="21" errorType="0" cacheTime="1" className=".MRet">SDelCommentReply</Url>
+    <!--帖子赞操作(登录)-->
+    <Url name="SEditTopicPraise" type="21" errorType="0" cacheTime="1" className=".MRet">SEditTopicPraise</Url>
+    <!--评论赞操作(登录)-->
+    <Url name="SEditCommentPraise" type="21" errorType="0" cacheTime="1" className=".MRet">SEditCommentPraise</Url>
+    <!--添加朋友圈(登录)-->
+    <Url name="SAddFriendCircle" type="21" errorType="0" cacheTime="1" className=".MRet">SAddFriendCircle</Url>
+    <!--删除朋友圈(登录)-->
+    <Url name="SDelCircle" type="21" errorType="0" cacheTime="1" className=".MRet">SDelCircle</Url>
+    <!--朋友圈列表(登录,按时间分页)-->
+    <Url name="SFriendCircles" type="21" errorType="0" cacheTime="1" className=".STopicList">SFriendCircles</Url>
+    <!--朋友圈赞操作(登录)-->
+    <Url name="SEditCirclePraise" type="21" errorType="0" cacheTime="1" className=".MRet">SEditCirclePraise</Url>
+    <!--我的朋友圈消息(登录,分页)-->
+    <Url name="SMyCircleNotifyList" type="21" errorType="0" cacheTime="1" className=".SForumNotifyList">SMyCircleNotifyList</Url>
+    <!--更新朋友圈背景图-->
+    <Url name="SUpdateCircleBg" type="21" errorType="0" cacheTime="1" className=".MRet">SUpdateCircleBg</Url>
+    <!--获取用户信息-->
+    <Url name="SGetUserInfo" type="21" errorType="0" cacheTime="1" className=".SUser">SGetUserInfo</Url>
+    <!--获取用户组信息-->
+    <Url name="SGetUserInfos" type="21" errorType="0" cacheTime="1" className=".SUserList">SGetUserInfos</Url>
+    <!--用户朋友圈动态列表(登录,分页)-->
+    <Url name="SGetUserCircle" type="21" errorType="0" cacheTime="1" className=".STopicList">SGetUserCircle</Url>
+    <!--收藏帖子(登录)-->
+    <Url name="SCollectTopic" type="21" errorType="0" cacheTime="1" className=".MRet">SCollectTopic</Url>
+    <!--杂草图谱(一级二级)-->
+    <Url name="MZaCaoCate" type="21" errorType="0" cacheTime="1" className=".MCategoryList">MZaCaoCate</Url>
+    <!--杂草图谱(三级)-->
+    <Url name="MZaCaoInfoList" type="21" errorType="0" cacheTime="1" className=".MZaCaoInfoList">MZaCaoInfoList</Url>
+    <!--杂草说明-->
+    <Url name="MZaCaoInfo" type="21" errorType="0" cacheTime="1" className=".MZaCaoInfo">MZaCaoInfo</Url>
+    <!--图文农技(登陆,分页)-->
+    <Url name="MCropTechList" type="21" errorType="0" cacheTime="1" className=".MCropTechList">MCropTechList</Url>
+    <!--收藏图文农技(登陆)-->
+    <Url name="MCropTechCollect" type="21" errorType="0" cacheTime="1" className=".MRet">MCropTechCollect</Url>
+    <!--图文农技详情-->
+    <Url name="MCropTech" type="21" errorType="0" cacheTime="1" className=".MCropTech">MCropTech</Url>
+    <!--农资商城(分页)-->
+    <Url name="MGoodsList" type="21" errorType="0" cacheTime="1" className=".MGoodsList">MGoodsList</Url>
+    <!--加入地标门店-->
+    <Url name="MJoinStore" type="21" errorType="0" cacheTime="1" className=".MRet">MJoinStore</Url>
+    <!--申请官方信息员-->
+    <Url name="MOfficeInfoUser" type="21" errorType="0" cacheTime="1" className=".MRet">MOfficeInfoUser</Url>
+    <!--附近农资-->
+    <Url name="MNearByJoinStore" type="21" errorType="0" cacheTime="1" className=".MFirmList">MNearByJoinStore</Url>
+    <!--附近企业-->
+    <Url name="MNearByStore" type="21" errorType="0" cacheTime="1" className=".MFirmList">MNearByStore</Url>
+    <!--农资详情-->
+    <Url name="MJoinStoreDetail" type="21" errorType="0" cacheTime="1" className=".MFirm">MJoinStoreDetail</Url>
+    <!--企业详情-->
+    <Url name="MFirmDetail" type="21" errorType="0" cacheTime="1" className=".MFirm">MFirmDetail</Url>
+    <!--我要报错-->
+    <Url name="MFirmError" type="21" errorType="0" cacheTime="1" className=".MRet">MFirmError</Url>
+    <!--农药分类（4个）-->
+    <Url name="MPesticideIndexCate" type="21" errorType="0" cacheTime="1" className=".MCategoryList">MPesticideIndexCate</Url>
+    <!--全部农药分类-->
+    <Url name="MPesticideCate" type="21" errorType="0" cacheTime="1" className=".MCategoryList">MPesticideCate</Url>
+    <!--查询真伪-农药-2生产批准证3农药执行标准-->
+    <Url name="MPesticideStandardSearchList" type="21" errorType="0" cacheTime="1" className=".MPesticideStandardSearchList">MPesticideStandardSearchList</Url>
+    <!---->
+    <Url name="MPesticideStandardSearch" type="21" errorType="0" cacheTime="1" className=".MPesticideStandardSearch">MPesticideStandardSearch</Url>
+    <!--查询真伪-农药-1农药登记证-->
+    <Url name="MSearchPesticideRight" type="21" errorType="0" cacheTime="1" className=".MPesticideSearchList">MSearchPesticideRight</Url>
+    <!--查询真伪-农药详情-->
+    <Url name="MPesticideSearchDetail" type="21" errorType="0" cacheTime="1" className=".MPesticideSearchDetail">MPesticideSearchDetail</Url>
+    <!--专家详情-->
+    <Url name="MProDetail" type="21" errorType="0" cacheTime="1" className=".SUser">MProDetail</Url>
+    <!--我的积分(需要登录)-->
+    <Url name="MMyCredit" type="21" errorType="0" cacheTime="1" className=".MRet">MMyCredit</Url>
+    <!--官方情报员信息(登录)-->
+    <Url name="MOfficeUserInfo" type="21" errorType="0" cacheTime="1" className=".MOfficeUser">MOfficeUserInfo</Url>
+    <!--情报员发布(登录)-->
+    <Url name="MOfficeUserAdd" type="21" errorType="0" cacheTime="1" className=".MRet">MOfficeUserAdd</Url>
+    <!--情报员可发布的分类(登陆)-->
+    <Url name="MOfficeUserCateList" type="21" errorType="0" cacheTime="1" className=".MCategoryList">MOfficeUserCateList</Url>
+    <!--我发布的情报(登录分页)-->
+    <Url name="MMyOfficeComment" type="21" errorType="0" cacheTime="1" className=".MOfficeCommentList">MMyOfficeComment</Url>
+    <!--农资行情(分页)-->
+    <Url name="MNongZiInfoList" type="21" errorType="0" cacheTime="1" className=".MOfficeCommentAllList">MNongZiInfoList</Url>
+    <!--农资行情按分类(分页)-->
+    <Url name="MNongZiInfoByCate" type="21" errorType="0" cacheTime="1" className=".MOfficeCommentList">MNongZiInfoByCate</Url>
+    <!--专家申请(登录)-->
+    <Url name="MProApply" type="21" errorType="0" cacheTime="1" className=".MRet">MProApply</Url>
+    <!--专家申请资料(登录)-->
+    <Url name="MProApplyInfo" type="21" errorType="0" cacheTime="1" className=".MProApply">MProApplyInfo</Url>
+    <!--情报员申请(登录)-->
+    <Url name="MOfficeUserApply" type="21" errorType="0" cacheTime="1" className=".MRet">MOfficeUserApply</Url>
+    <!--我的收藏-问题(登陆,分页)-->
+    <Url name="MUserCollectTopicList" type="21" errorType="0" cacheTime="1" className=".STopicList">MUserCollectTopicList</Url>
+    <!--我的收藏-技术(登陆,分页)-->
+    <Url name="MUserCollectArticleList" type="21" errorType="0" cacheTime="1" className=".MCropTechList">MUserCollectArticleList</Url>
+    <!--我的收藏-商品(登陆,分页)-->
+    <Url name="MUserCOllectGoodsList" type="21" errorType="0" cacheTime="1" className=".MGoodsList">MUserCOllectGoodsList</Url>
+    <!--我的-邀请码初始化(登录)-->
+    <Url name="MUserSetInviteCode" type="21" errorType="0" cacheTime="1" className=".MRet">MUserSetInviteCode</Url>
+  </Api>
+</Apis>

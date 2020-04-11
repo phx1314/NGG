@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/G1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dip"
+        android:background="@color/A"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/j8dp"
+        android:paddingLeft="@dimen/j15dp"
+        android:paddingRight="@dimen/j15dp"
+        android:paddingTop="@dimen/j8dp">
+
+        <EditText
+            android:id="@+id/clk_mTextView_sousuo"
+            style="@style/text_style_15_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_sousuo"
+            android:drawableLeft="@drawable/ic_sousuo"
+            android:drawablePadding="@dimen/j5dp"
+            android:gravity="center_vertical"
+            android:hint="搜索问题/技术/专家"
+            android:paddingLeft="@dimen/j5dp"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/clk_mTextView_cancel"
+            style="@style/text_style_15_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/j10dp"
+            android:text="取消" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/text_style_13_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/j13dp"
+        android:layout_marginTop="@dimen/j10dp"
+        android:text="在分类下搜索" />
+
+    <RadioGroup
+        android:id="@+id/mRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/j10dp"
+        android:checkedButton="@+id/mRadioButton1"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/j13dp"
+        android:paddingRight="@dimen/j13dp">
+
+        <RadioButton
+            android:id="@+id/mRadioButton1"
+            style="@style/text_style_13_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_checked_search"
+            android:button="@null"
+            android:gravity="center"
+            android:text="问题"
+            android:textColor="@drawable/select_text_sousuo" />
+
+        <RadioButton
+            android:id="@+id/mRadioButton2"
+            style="@style/text_style_13_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/j10dp"
+            android:background="@drawable/btn_checked_search"
+            android:button="@null"
+            android:gravity="center"
+            android:text="商品"
+            android:textColor="@drawable/select_text_sousuo" />
+
+        <RadioButton
+            android:id="@+id/mRadioButton3"
+            style="@style/text_style_13_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/j10dp"
+            android:background="@drawable/btn_checked_search"
+            android:button="@null"
+            android:gravity="center"
+            android:text="技术"
+            android:textColor="@drawable/select_text_sousuo" />
+
+        <RadioButton
+            android:id="@+id/mRadioButton4"
+            style="@style/text_style_13_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/j10dp"
+            android:background="@drawable/btn_checked_search"
+            android:button="@null"
+            android:gravity="center"
+            android:text="专家"
+            android:textColor="@drawable/select_text_sousuo" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/j13dp"
+        android:layout_marginRight="@dimen/j13dp"
+        android:layout_marginTop="@dimen/j10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/text_style_13_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="历史记录" />
+
+        <ImageView
+            android:id="@+id/clk_mImageView_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bt_shanchu_n" />
+    </LinearLayout>
+
+    <com.framewidget.view.FixGridLayout
+        android:id="@+id/mFixGridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/j13dp"
+        android:layout_marginTop="@dimen/j13dp" />
+</LinearLayout>
+

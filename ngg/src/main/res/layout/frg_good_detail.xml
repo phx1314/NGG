@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/j320dp">
+
+                <com.framewidget.view.DfCirleCurr
+                    android:id="@+id/mMImageView_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/clk_mImageView_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/j10dp"
+                    android:src="@drawable/bt_back_n" />
+
+                <ImageView
+                    android:id="@+id/clk_mImageView_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:padding="@dimen/j10dp"
+                    android:src="@drawable/bt_share_n" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/mTextView_title"
+                style="@style/text_style_15_black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:layout_marginRight="@dimen/j10dp"
+                android:text="大是的撒的撒旦撒旦撒旦撒旦撒" />
+
+            <TextView
+                android:id="@+id/mTextView_price"
+                style="@style/text_style_15_black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:layout_marginRight="@dimen/j10dp"
+                android:layout_marginTop="@dimen/j10dp"
+                android:text="￥25.0"
+                android:textColor="@color/Eb" />
+
+            <TextView
+                android:id="@+id/mTextView_content"
+                style="@style/text_style_13_gray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:layout_marginRight="@dimen/j10dp"
+                android:layout_marginTop="@dimen/j10dp"
+                android:text="规格：15g     运费：10元" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="@dimen/j12dp"
+                android:background="@color/tyD1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/j8dp"
+                android:background="#f2f2f2" />
+
+            <TextView
+                android:id="@+id/mTextView_phone"
+                style="@style/text_style_15_black"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/j40dp"
+                android:drawableLeft="@drawable/ic_kfdh"
+                android:drawablePadding="@dimen/j10dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/j10dp"
+                android:text="客服电话:400-025-9116" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/tyD1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/j8dp"
+                android:background="#f2f2f2" />
+
+
+            <TextView
+                android:id="@+id/mTextView_content1"
+                style="@style/text_style_13_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:layout_marginRight="@dimen/j10dp"
+                android:layout_marginTop="@dimen/j10dp"
+                android:text="@string/test" />
+
+            <LinearLayout
+                android:id="@+id/mLinearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:layout_marginRight="@dimen/j10dp"
+                android:layout_marginTop="@dimen/j10dp"
+                android:orientation="vertical"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/mTextView_content2"
+                style="@style/text_style_13_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:layout_marginRight="@dimen/j10dp"
+                android:layout_marginTop="@dimen/j10dp"
+                android:text="@string/test" />
+
+            <LinearLayout
+                android:id="@+id/mLinearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:layout_marginRight="@dimen/j10dp"
+                android:orientation="vertical" />
+
+
+            <TextView
+                android:id="@+id/mTextView_content3"
+                style="@style/text_style_13_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:layout_marginRight="@dimen/j10dp"
+                android:layout_marginTop="@dimen/j10dp"
+                android:text="@string/test" />
+
+            <LinearLayout
+                android:id="@+id/mLinearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:orientation="vertical" />
+
+
+            <TextView
+                android:id="@+id/mTextView_content4"
+                style="@style/text_style_13_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:layout_marginRight="@dimen/j10dp"
+                android:layout_marginTop="@dimen/j10dp"
+                android:text="@string/test" />
+
+            <LinearLayout
+                android:id="@+id/mLinearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:orientation="vertical" />
+
+
+            <TextView
+                android:id="@+id/mTextView_content5"
+                style="@style/text_style_13_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:layout_marginRight="@dimen/j10dp"
+                android:layout_marginTop="@dimen/j10dp"
+                android:text="@string/test" />
+
+            <LinearLayout
+                android:id="@+id/mLinearLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:layout_marginRight="@dimen/j10dp"
+                android:orientation="vertical" />
+
+
+            <TextView
+                android:id="@+id/mTextView_content6"
+                style="@style/text_style_13_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:layout_marginRight="@dimen/j10dp"
+                android:layout_marginTop="@dimen/j10dp"
+                android:text="@string/test" />
+
+            <LinearLayout
+                android:id="@+id/mLinearLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:orientation="vertical" />
+
+
+            <LinearLayout
+                android:id="@+id/mLinearLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/j10dp"
+                android:layout_marginLeft="@dimen/j10dp"
+                android:layout_marginRight="@dimen/j10dp"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/tyD1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/j45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/j30dp">
+
+        <TextView
+            android:id="@+id/mTextView_shoucang"
+            style="@style/text_style_13_gray"
+            android:layout_width="@dimen/j40dp"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/j5dp"
+            android:drawableTop="@drawable/bt_shoucang_n"
+            android:gravity="center"
+            android:text="收藏" />
+
+        <LinearLayout
+            android:id="@+id/mRelativeLayout_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/j60dp">
+
+            <RelativeLayout
+                android:layout_width="@dimen/j30dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bt_gouwuche_n" />
+
+                <TextView
+                    android:id="@+id/mTextView_num"
+                    style="@style/text_style_11_white"
+                    android:layout_width="@dimen/j18dp"
+                    android:layout_height="@dimen/j18dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/rm_gouwuche"
+                    android:gravity="center"
+                    android:text="99" />
+            </RelativeLayout>
+
+            <TextView
+                style="@style/text_style_13_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/j5dp"
+                android:layout_marginTop="@dimen/j5dp"
+                android:text="购物车" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/clk_mTextView_addcard"
+            style="@style/text_style_17_white"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/j60dp"
+            android:layout_weight="1"
+            android:background="@color/B"
+            android:gravity="center"
+            android:text="加入购物车" />
+    </LinearLayout>
+</LinearLayout>
+
